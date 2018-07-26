@@ -83,11 +83,11 @@ class Application extends Component {
   render() {
     return (
       <MuiThemeProvider muiTheme={getMuiTheme()}>
-      <div>
-      <Header />
         <Router>
           <div>
-          <PropsRoute
+            <Header />
+
+            <PropsRoute
               exact
               path="/"
               component={AdvancedProductList}
@@ -110,10 +110,7 @@ class Application extends Component {
             <LoggedOutRoute path="/signup" component={SignUpPage} />
             <Route path="/logout" component={LogoutFunction} />
           </div>
-          
         </Router>
-      </div>
-       
       </MuiThemeProvider>
     );
   }

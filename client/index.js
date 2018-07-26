@@ -14,9 +14,7 @@ import "./styles/styles.scss";
 
 render(
   <Provider store={store}>
-    <BrowserRouter>
       <Application />
-    </BrowserRouter>
   </Provider>,
   document.getElementById("app")
 );
