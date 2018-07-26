@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production",
+    "start": "nodemon --use_strict index.js",
+    "build": "webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,7 +29,18 @@
     "style-loader": "^0.20.3",
     "webpack": "^4.16.1",
     "webpack-cli": "^2.0.11",
-    "webpack-dev-server": "^3.1.1"
+    "webpack-dev-server": "^3.1.1",
+    "axios": "^0.16.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "material-ui": "^0.18.1",
+    "mongoose": "^4.10.4",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "validator": "^7.0.0",
+    "react-tap-event-plugin": "^3.0.3"
   },
   "dependencies": {
     "react": "^16.2.0",
@@ -38,6 +49,7 @@
     "redux": "^3.6.0",
     "redux-thunk": "^2.1.0",
     "react-slick": "^0.23.1",
-    "recompose": "^0.23.1"
+    "recompose": "^0.23.1",
+    "nodemon": "^1.11.0"
   }
 }
