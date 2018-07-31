@@ -10,7 +10,7 @@
   "repository": {
     "type": "git"
   },
-  "keywords": ["reactjs", "ecommerce", "productList", "shopping", "redux", "passportjs", "authentication", "mongo"],
+  "keywords": ["reactjs", "ecommerce", "productList", "shopping", "redux", "passportjs", "authentication", "mongo", "pagination", "infinitescroll" ],
   "author": "",
   "devDependencies": {
     "babel-core": "^6.26.0",
