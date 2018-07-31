@@ -15,4 +15,6 @@ An Ecommerce website showing products and product-details.
 - Login And Signup authentication using passport.js.
 - Product Listing.
 - Integrated Redux for state management.
+- Infinite Scroll and pagination support.
+- Responsive Product Detailing
 
